@@ -1,4 +1,5 @@
 --Inanis Rex
+--Designed and Scripted by Belisk
 local s,id=GetID()
 function s.initial_effect(c)
 	--Link Summon & Pendulum Attribute
@@ -6,7 +7,6 @@ function s.initial_effect(c)
 	aux.AddLinkProcedure(c,aux.FilterBoolFunction(Card.IsSetCard,0x369),2)
 	aux.EnablePendulumAttribute(c,false)
 	--Special Summon from ED
-	--special summon
 	local e1=Effect.CreateEffect(c)
 	e1:SetDescription(aux.Stringid(id,0))
     e1:SetType(EFFECT_TYPE_FIELD)

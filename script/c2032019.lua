@@ -1,5 +1,5 @@
 --Inanis Palatium
---Scripter by Belisk
+--Designed and Scripted by Belisk
 local s,id=GetID()
 function s.initial_effect(c)
 	--Activate
@@ -47,7 +47,6 @@ function s.activate(e,tp,eg,ep,ev,re,r,rp)
 		Duel.ConfirmCards(1-tp,sg)
 	end
 end
-
 function s.thcon(e,tp,eg,ep,ev,re,r,rp)
 	return (r&REASON_EFFECT)==REASON_EFFECT and e:GetHandler():IsPreviousLocation(LOCATION_SZONE)
 end

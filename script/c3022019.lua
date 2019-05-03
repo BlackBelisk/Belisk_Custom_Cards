@@ -1,7 +1,8 @@
 --Inanis Praefator
+--Designed and Scripted by Belisk
 local s,id=GetID()
 function s.initial_effect(c)
-	--pendulum summon
+	--Pendulum Summon
 	aux.EnablePendulumAttribute(c)
 	--splimit
 	local e1=Effect.CreateEffect(c)

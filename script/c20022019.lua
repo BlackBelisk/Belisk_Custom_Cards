@@ -1,4 +1,5 @@
 --Inanis Tyrannus
+--Designed and Scripted by Belisk
 local s,id=GetID()
 function s.initial_effect(c)
 	c:EnableReviveLimit()

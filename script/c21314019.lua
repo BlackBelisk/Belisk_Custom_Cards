@@ -1,4 +1,5 @@
 --Madolche Banana Split
+--Designed by Latios. Scripted by Belisk.
 s,id=GetID()
 function s.initial_effect(c)
 	--Shuffle & Draw

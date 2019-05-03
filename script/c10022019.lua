@@ -1,4 +1,5 @@
 --Inanis Dux
+--Designed and Scripted by Belisk
 local s,id=GetID()
 function s.initial_effect(c)
 	local e1=Effect.CreateEffect(c)

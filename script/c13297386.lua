@@ -1,5 +1,5 @@
 --Devastation, the Almighty Dragon
---Scripted by Belisk
+--Designed by Latios. Scripted by Belisk.
 local s,id=GetID()
 function s.initial_effect(c)
 	--Cannot be removed

@@ -1,4 +1,5 @@
 --Inanis Regina
+--Designed and Scripted by Belisk
 local s,id=GetID()
 function s.initial_effect(c)
 	--Link Summon & Pendulum Attribute

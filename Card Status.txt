@@ -1,0 +1,77 @@
+--------------------------------------------------------------------------------
+Meanings:
+> II: Information Incomplete.
+> WR: Waiting for Revision.
+> TBD: To Be Discussed.
+> CID: Currently In Discussion
+> WFA: Waiting For Approval
+> WIP: Work In Progress.
+> TBA: To Be Assigned
+> TBU: To Be Updated.
+> TBA: To Be Added.
+> TBR: To Be Removed.
+---------------------------------------------------------------------------------
+---------------------------------------------Archetype: Inanis---------------------------------------------
+
+-Inanis Populus -ID: 01022019 -Status- Text: Done, Pic: TBU, cdb: Done, Script: Done;
+
+-Inanis Custos -ID: 02022019 -Status- Text: Done, Pic: TBU, cdb: Done, Script: Done;
+
+-Inanis Praefator -ID: 03022019 -Status- Text: Done, Pic: TBU, cdb: Done, Script: Done;
+
+-Inanis Exterminatore -ID: 04022019 -Status- Text: Done, Pic: TBU, cdb: Done, Script: Done;
+
+-Inanis Servus -ID: 05022019 -Status- Text: Done, Pic: TBU, cdb: Done, Script: Done;
+
+-Inanis Dator -ID: 06022019 -Status- Text: Done, Pic: TBU, cdb: Done, Script: Done;
+
+-Inanis Venator -ID: 07022019 -Status- Text: Done, Pic: TBU, cdb: Done, Script: Done;
+
+-Inanis Scurra -ID: 08022019 -Status- Text: Done, Pic: TBU, cdb: Done, Script: Done;
+
+-Inanis Eques -ID: 09022019 -Status- Text: Done, Pic: TBU, cdb: Done, Script: Done;
+
+-Inanis Dux -ID: 10022019 -Status- Text: Done, Pic: TBU, cdb: Done, Script: Done;
+
+-Inanis Praetor -ID: 11022019 -Status- Text: Done, Pic: TBU, cdb: Done, Script: Done;
+
+-Inanis Ludex -ID: 12022019 -Status- Text: Done, Pic: TBU, cdb: Done, Script: Done;
+
+-Inanis Filia -ID 13022019 -Status- Text: Done, Pic: TBU, cdb: Done, Script: Done;
+
+-Inanis Filius -ID: 14022019 -Status- Text: Done, Pic: TBU, cdb: Done, Script: Done;
+
+-Inanis Regina -ID: 15022019 -Status- Text: Done, Pic: TBU, cdb: Done, Script: Done;
+
+-Inanis Rex -ID: 16022019 -Status- Text: Done, Pic: TBU, cdb: Done, Script: Done;
+
+-Inanis Daemonius -ID: 17022019 -Status- Text: Done, Pic: TBU, cdb: Done, Script: Done;
+
+-Inanis Belua -ID: 18022019 -Status- Text: Done, Pic: TBU, cdb: Done, Script: Done;
+
+-Inanis Usurpatore -ID: 19022019 -Status- Text: Done, Pic: TBU, cdb: Done, Script: Done;
+
+-Inanis Tyrannus -ID: 20022019 -Status- Text: Done, Pic: TBU, cdb: Done, Script: Done;
+
+-Inanis Regnorum -ID: 01032019 -Status- Text: Done, Pic: TBU, cdb: Done, Script: Done;
+
+-Inanis Palatium -ID: 02032019 -Status- Text: Done, Pic: TBU, cdb: Done, Script: Done;
+
+-Inanis Atrium -ID: 03032019 -Status- Text: Done, Pic: TBU, cdb: Done, Script: Done;
+
+-Inanis Rituale -ID: 12032019 -Status- Text: Done, Pic: TBU, cdb: Done, Script: Done;
+---------------------------------------------Archetype: Inanis---------------------------------------------
+
+---------------------------------------------Archetype: Madolche Support---------------------------------------------
+-Madolche Twin Siscream -ID: 21315019 -Status- Text: Done, Pic: Done, cdb: Done, Script: Done;
+
+-Madolche Sweet Message -ID: 21314019 -Status- Text: Done, Pic: Done, cdb: Done, Script: Done;
+
+-Madolche Dessert Flood -ID: 21316019 -Status- Text: Done, Pic: Done, cdb: Done, Script: Done;
+---------------------------------------------Archetype: Madolche Support---------------------------------------------
+
+---------------------------------------------Custom Singles---------------------------------------------
+
+-Devastation, the Almighty Dragon -ID: 13297386-  Text: Done, Pic: Done, cdb: Done, Script: Done;
+
+---------------------------------------------Custom Singles---------------------------------------------

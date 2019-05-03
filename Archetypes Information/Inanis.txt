@@ -1,0 +1,278 @@
+-Inanis Populus -ID: 01022019 
+-Type: Monster/Effect
+-Attribute: EARTH
+-Level: 1 
+-Race: Spellcaster
+-ATK: 0 -DEF: 0
+-Pendulum Scale: N/A
+-Effect: If you control no cards (Quick Effect):You can discard this card, Special Summon 2 "Inanis Tokens" (Spellcaster/EARTH/Level 1/ATK 0/DEF 0).You can only use this effect of "Inanis Populus" once per turn.
+
+-Inanis Custos -ID: 02022019 
+-Type: Monster/Effect/Tuner
+-Attribute: EARTH
+-Level: 4
+-Race: Spellcaster
+-ATK:1000 -DEF: 2000
+-Pendulum Scale: N/A
+-Effect: You can only use each of these effects of "Inanis Custos" once per turn.
+● If you control no cards, when an opponent's monster declares an attack (Quick Effect): You can discard this card; negate the attack.
+● If an "Inanis" card you control would be destroyed by battle or card effect, you can discard this card instead.
+
+-Inanis Praefator -ID: 03022019 
+-Type: Monster/Effect/Pendulum
+-Attribute: FIRE
+-Level: 4 
+-Race: Spellcaster
+-ATK:1500 -DEF: 1200
+-Pendulum Scale: 9/9
+-Pendulum Effect: 
+[ Pendulum Effect ]
+You cannot Pendulum Summon monsters, except "Inanis" monsters. This effect cannot be negated. If you have an "Inanis" card in your other Pendulum Zone: You can destroy both cards in your Pendulum Zones, and if you do, add 1 "Inanis" card from your Deck or GY to your hand. You can only use this effect of "Inanis Praefator" once per turn.
+----------------------------------------
+-Effect:
+[ Monster Effect ]
+If you control no cards (Quick Effect): You can discard this card; activate 1 of these effects.
+● This turn, you can activate "Inanis" Spell cards even if you control a card.
+● This turn, you can activate the effects of "Inanis" monsters in your field even if you control a card. 
+You can only use this effect of "Inanis Praefator" once per turn.
+
+-Inanis Exterminatore -ID: 04022019 
+-Type: Monster/Effect 
+-Attribute: Light 
+-Level: 1 
+-Race: Spellcaster 
+-ATK: 0 -DEF: 0 
+-Pendulum Scale: N/A
+-Effect: If you control no cards (Quick Effect): You can discard this card; activate 1 of these effects.
+● Target 1 card on the field; destroy it, and if you do, you can draw 1 card. 
+● Target 1 monster your opponent controls; negates it's effects (until the end of this turn).
+You can only use this effect of "Inanis Exterminatore" once per turn.
+
+
+-Inanis Servus -ID: 05022019 
+-Type: Monster/Effect/Pendulum
+-Attribute: DARK
+-Level: 4
+-Race: Zombie
+-ATK:1900 -DEF:1200 
+-Pendulum Scale: 9/9
+-Pendulum Effect: 
+[ Pendulum Effect ]
+You cannot Pendulum Summon monsters, except "Inanis" monsters. This effect cannot be negated. If you have an "Inanis" card in your other Pendulum Zone: You can destroy this card, and if you do, Special Summon the other card in your Pendulum Zone. You can only use this effect of "Inanis Servus" once per turn.
+----------------------------------------
+-Effect:
+[ Monster Effect ]
+This card cannot be used as a Synchro Material Monster, except for the Synchro Summon of an "Inanis" monster.
+If you control no cards (Quick Effect): You can discard this card; activate 1 of these effects.
+● Special Summon 1 "Inanis Servus" from your Deck. 
+● Special Summon 1 Level 4 or lower "Inanis" monster from your hand.
+You can only use 1 "Inanis Servus" effect per turn, and only once that turn.
+
+
+-Inanis Dator -ID: 06022019 
+-Type: Monster/Effect/Pendulum
+-Attribute: WATER
+-Level: 4
+-Race: Spellcaster
+-ATK: 1800 -DEF: 1000
+-Pendulum Scale: 1/1
+[ Pendulum Effect ]
+You cannot Pendulum Summon monsters, except "Inanis" monsters. This effect cannot be negated. If you have an "Inanis" card in your other Pendulum Zone: You can destroy both cards in your Pendulum Zones, and if you do, draw 2 cards.
+----------------------------------------
+-Effect:
+[ Monster Effect ]
+If you control no cards (Quick Effect): You can discard this card; draw 1 card. You can only this effect of "Inanis Dator" once per turn.
+
+-Inanis Venator -ID: 07022019 
+-Type: Monster/Effect
+-Attribute: DARK
+-Level: 5
+-Race: Warrior
+-ATK: 2000 -DEF: 1500
+-Pendulum Scale: N/A 
+-Effect: If you control no cards, you can special summon this card (from your hand). You can only use this effect of "Inanis Venator" once per turn.
+
+-Inanis Scurra -ID: 08022019 
+-Type: Monster/Effect/Pendulum/Tuner
+-Attribute: LIGHT
+-Level: 1 
+-Race: PSYCHIC
+-ATK:0 -DEF:0 
+-Pendulum Scale: 1/1
+[ Pendulum Effect ]
+You cannot Pendulum Summon monsters, except "Inanis" monsters. This effect cannot be negated. If you have an "Inanis" card in your other Pendulum Zone: You can destroy this card in your Pendulum Zone, and if you do, you can target 1 face-up "Inanis" monster you control; that face-up monster is treated as a Tuner this turn. You can only use this effect of "Inanis Scurra" once per turn.
+----------------------------------------
+-Effect:
+[ Monster Effect ]
+This card cannot be used as a Synchro Material Monster, except for the Synchro Summon of an "Inanis" monster.
+If you control no cards (Quick Effect): You can discard this card; activate 1 of these effects.
+● Declare a Level from 1 to 8; this turn, all face-up monsters on the field become that Level.
+● Declare 1 Attribute; this turn, all face-up monsters on the field become that Attribute.
+● Declare 1 Monster Type; this turn, all face-up monsters on the field become that Type.
+You can only use this effect of "Inanis Scurra" once per turn.
+
+-Inanis Eques -ID: 09022019 
+-Type: Monster/Effect
+-Attribute: LIGHT
+-Level:5 
+-Race: Warrior
+-ATK:2000 -DEF: 2000
+-Pendulum Scale: N/A
+-Effect: If you control no cards, you can special summon this card (from your hand). You can only Special Summon "Inanis Eques" once per turn this way.
+
+-Inanis Dux -ID: 10022019 
+-Type: Monster/Effect
+-Attribute: DARK
+-Level:6 
+-Race: Warrior
+-ATK: 2500 -DEF:2000 
+-Pendulum Scale: N/A
+-Effect: If you control no cards (Quick Effect): You can discard this card; add 1 "Inanis Praetor" from your deck or GY to your hand. You can only this effect of "Inanis Dux" once per turn.
+
+-Inanis Praetor -ID: 11022019 
+-Type: Monster/Effect/Pendulum
+-Attribute: DARK
+-Level:8 
+-Race: Warrior
+-ATK:3000 -DEF:2000 
+-Pendulum Scale: 1/1
+[ Pendulum Effect ]
+You cannot Pendulum Summon monsters, except "Inanis" monsters. This effect cannot be negated. If you have an "Inanis" card in your other Pendulum Zone: You can destroy both cards in your Pendulum Zones, and if you do, Special Summon 4 "Inanis Tokens" (Spellcaster/EARTH/Level 1/ATK 0/DEF 0).You can only use this effect of "Inanis Praetor" once per turn. 
+----------------------------------------
+-Effect:
+[ Monster Effect ]
+If you control no cards (Quick Effect): You can discard this card, Special Summon 1 "Inanis" monster from your Extra Deck using monsters from your field as Materials. You can only use this effect of "Inanis Praetor" once per turn.
+
+-Inanis Ludex -ID: 12022019 
+-Type: Monster/Effect/Ritual
+-Attribute: DARK
+-Level: 8 
+-Race: Warrior
+-ATK: 3000 -DEF: 2000 
+-Pendulum Scale: N/A
+-Effect: You can Ritual Summon this card with "Inanis Rituale". Must be Ritual Summoned, and cannot be Special Summoned by other ways. During either player's turn if you control no other cards; when your opponent would Special Summon a monster(s), OR activates a Spell Card, Trap Card, or monster effect: You can discard 1 "Inanis" card from your hand, negate the Summon or activation, and if you do, destroy that card.
+
+-Inanis Filius -Code: 13022019 
+-Type: Monster/Link
+-Attribute: LIGHT
+-Link Rating: 1 
+-Race: Spellcaster
+-ATK: 1000 -DEF: N/A 
+-Pendulum Scale: N/A
+-Effect: 
+1 "Inanis" monster
+When this card is Link Summoned: You can activate 1 "Inanis" Spell card directly from your deck. If you control no other cards, you can special summon 1 Level 5 or lower "Inanis" monster from your deck or hand to a zone this card points to. You can only use each effect of "Inanis Filius" once per turn.
+
+-Inanis Filia -Code 14022019 
+-Type: Monster/Link
+-Attribute: LIGHT
+-Link Rating: 2
+-Race: Spellcaster
+-ATK:2000 -DEF: N/A
+-Pendulum Scale: N/A
+-Pendulum Effect: N/A
+-Effect:
+2 "Inanis" monsters
+If this card is Link Summoned: You can activate 1 "Inanis" Spell card directly from your deck. If you control no other cards: You can target 1 Level 4 or lower "Inanis" monster from your GY, and either add it to your hand or Special Summon it to a zone this card points to. You can only each effect of "Inanis Filia" once per turn.
+
+-Inanis Regina -Code: 15022019 
+-Type: Monster/Link/Pendulum
+-Attribute: DARK
+-Link Rating: 3
+-Race: Spellcaster
+-ATK: 2500 -DEF: N/A
+-Pendulum Scale: 1/1
+[ Pendulum Effect ]
+You cannot Pendulum Summon monsters, except "Inanis" monsters. This effect cannot be negated. If you have an "Inanis" card in your other Pendulum Zone: You can destroy the card in your other Pendulum Zone, and if you do, Special Summon this card.
+----------------------------------------
+-Effect:
+[ Monster Effect ]
+2+ "Inanis" monsters
+If this card is Link Summoned, you can target up to 3 "Inanis" cards in your GY, shuffle them into your Deck, then you can draw 1 card. During either player's turn if you control no other cards: You can tribute 1 "Inanis" monster this card points to, then target 1 face-up card your opponent controls; negate its effects until the end of this turn. If this card in the Monster Zone is destroyed and you control no other cards: You can place this card in your Pendulum Zone. You can only use each effect of "Inanis Regina" once per turn.
+
+-Inanis Rex -Code: 16022019 
+-Type: Monster/Link/Pendulum
+-Attribute: DARK
+-Link Rating: 4
+-Race: Spellcaster
+-ATK:3000 -DEF: N/A
+-Pendulum Scale: 9/9
+[ Pendulum Effect ]
+You cannot Pendulum Summon monsters, except "Inanis" monsters. This effect cannot be negated. If you have an "Inanis" card in your other Pendulum Zone: You can destroy the card in your other Pendulum Zone, and if you do, Special Summon this card.
+----------------------------------------
+-Effect:
+[ Monster Effect ]
+3+ "Inanis" monsters
+If this card is Link Summoned: You can target up to 3 "Inanis" cards in your GY, shuffle them into your Deck, then you can draw 1 card. While this card is co-linked with "Inanis Regina" both cards cannot be targeted or destroyed by your opponent's card effects. Once per turn if you control no other cards (Quick Effect) you can tribute 1 "Inanis" monster you control, activate one of these effects.
+● Special Summon 1 "Inanis" Link Monster from your GY to a zone this card points to.
+● Target 2 "Inanis" cards in your field or GY, add them to your hand.
+If this card in the Monster Zone is destroyed while you control no other cards: You can place this card in your Pendulum Zone.
+
+-Inanis Daemonius -ID: 17022019 
+-Type: Monster/Effect
+-Attribute: DARK
+-Level: 4
+-Race: Fiend
+-ATK:0 -DEF:0
+-Pendulum Scale: N/A
+-Effect:
+If you control no cards (Quick Effect): You can discard this card; Special Summon 2 "Inanis Daemonius" from your deck. You can only this effect of "Inanis Daemonius" once per turn.
+
+-Inanis Belua -Code: 18022019 
+-Type: Monster/xyz
+-Attribute: DARK
+-Rank: 4
+-Race: Fiend
+-ATK:2500 -DEF:0 
+-Pendulum Scale: N/A
+-Effect:
+2 Level 4 "Inanis" monsters
+If this card is Xyz Summoned: You can target up to 3 "Inanis" cards in your GY, shuffle them into your Deck, then you can draw 1 card.
+During either player's turn if you control no other cards: You can detach 1 Xyz Material from this card, activate 1 of these effects.
+● Target 1 card on the field; destroy it.
+● Target 1 "Inanis" card in your GY, add it to your hand
+You can only use each effect of "Inanis Belua" once per turn.
+
+-Inanis Usurpatore -Code: 19022019 
+-Type: Monster/Synchro
+-Attribute: DARK
+-Level: 8
+-Race: Fiend
+-ATK:2500 -DEF:0 
+-Pendulum Scale: N//A
+-Effect:
+1 Tuner + 1 or more non-Tuner "Inanis" monsters
+If this card is Synchro Summoned: You can target up to 3 "Inanis" cards in your GY, shuffle them into your Deck, then you can draw 1 card.
+During either player's turn if you control no other cards: You can discard 1 card, activate 1 of these effects. 
+● Shuffle 1 card on the field into the Deck.
+● Add 1 "Inanis" Pendulum Monster from your Deck to your hand.
+You can only use each effect of "Inanis Usurpatore" once per turn.
+
+-Inanis Tyrannus -Code: 20022019 
+-Type: Monster/Fusion
+-Attribute: DARK
+-Level:10 
+-Race: Fiend
+-ATK:0 -DEF:0 
+-Pendulum Scale: N/A
+-Effect:
+"Inanis Belua" + "Inanis Usurpatore"
+Must first be Special Summoned (from your Extra Deck) by Tributing the above cards. (You do not use "Polymerization".) Cannot be destroyed by battle or card effects. You take no battle damage from attacks involving this card. Once per turn, during either player's turn if you control no other cards: You can discard 1 card or destroy 1 monster equipped to this card, activate 1 of these effects:
+● Target 1 Effect Monster on the field; equip that target to this card. This card gains DEF equal to the combined original ATK of the monsters equipped to it by this effect.
+● Target 1 other monster on the field or in the GY; until the End Phase, this card's name becomes that monster's original name, and replace this effect with that monster's original effects.
+
+-Inanis Regnorum -Code: 01032019 
+-Type: Spell/Field
+-Effect: When this card is activated: You can add 1 "Inanis" Spell/Trap card from your Deck to your hand. You can activate the effects of "Inanis" Spell/Trap cards even if you control a card. If this card is destroyed by a card effect: You can target 1 "Inanis" Spell/Trap card in your GY; add it to your hand.  You can only activate 1 "Inanis Regnorum" per turn.
+
+-Inanis Palatium -Code: 02032019 
+-Type: Spell/Continous
+-Effect: You must control no cards to active this card. When this card is activated: You can add 1 Level 4 or lower "Inanis" monster from your Deck to your hand. You can activate the effects of "Inanis" monsters in your hand even if you control a card. If this card is destroyed by a card effect: You can target 1 "Inanis" monster in your GY; add it to your hand. You can only activate 1 "Inanis Palatium" per turn.
+
+-Inanis Atrium -Code: 03032019 
+-Type: Spell/Continous
+-Effect: You must control no cards to active this card. When this card is activated: You can target up to 3 "Inanis" cards in your GY except "Inanis Atrium", shuffle them into the deck. You can activate the effects of "Inanis" monsters in your field even if you control a card. If this card is destroyed by a card effect: You can target up to 3 "Inanis" cards in your GY, shuffle them into the deck, then draw 1 card. You can only activate 1 "Inanis Atrium" per turn.
+
+-Inanis Rituale -Code: 12032019
+-Type: Spell/Ritual
+-Effect: This card is used to Ritual Summon "Inanis Ludex". You must control no cards to activate this card. You must also Tribute monsters from your hand or field whose total Levels equal 8 or more. Your opponent cannot activate cards or effects in response to this card's activation.

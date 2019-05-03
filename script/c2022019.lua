@@ -1,9 +1,9 @@
 --Inanis Custos
+--Designed and Scripted by Belisk
 local s,id=GetID()
 function s.initial_effect(c)
 	--Negate attack
 	local e1=Effect.CreateEffect(c)
-	-- e1:SetDescription(aux.Stringid(48905153,1))
 	e1:SetType(EFFECT_TYPE_FIELD+EFFECT_TYPE_TRIGGER_O)
 	e1:SetRange(LOCATION_HAND)
 	e1:SetCode(EVENT_ATTACK_ANNOUNCE)
@@ -26,8 +26,6 @@ function s.nacon(e,tp)
 	local at=Duel.GetAttacker()
 	return (Duel.GetFieldGroupCount(tp,LOCATION_ONFIELD,0)==0 or Duel.IsPlayerAffectedByEffect(tp,2032019)) and not at:IsControler(tp)
 end
---Condition e1
---Cost e1
 function s.nacost(e,tp,eg,ep,ev,re,r,rp,chk)
 	local c=e:GetHandler()
 	if chk==0 then return c:IsDiscardable() end
@@ -35,11 +33,7 @@ function s.nacost(e,tp,eg,ep,ev,re,r,rp,chk)
 end
 function s.naop(e,tp,eg,ep,ev,re,r,rp)
 	Duel.NegateAttack()
-	--[[if Duel.NegateAttack() then
-		Duel.SkipPhase(1-tp,PHASE_BATTLE,RESET_PHASE+PHASE_BATTLE,1)
-	end--]]
 end
-
 function s.repfilter(c,tp)
 	return c:IsFaceup() and c:IsSetCard(0x369)
 		and c:IsControler(tp) and c:IsReason(REASON_EFFECT+REASON_BATTLE) and not c:IsReason(REASON_REPLACE)

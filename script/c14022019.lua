@@ -1,6 +1,10 @@
-local s,id=GetID()function s.initial_effect(c)
+--Inanis Filia
+--Designed and Scripted by Belisk
+local s,id=GetID()
+function s.initial_effect(c)
 	aux.AddLinkProcedure(c,aux.FilterBoolFunction(Card.IsLinkSetCard,0x369),2,2)
 	c:EnableReviveLimit()
+	--Activate
 	local e1=Effect.CreateEffect(c)
 	e1:SetDescription(aux.Stringid(1402201,0))
 	e1:SetType(EFFECT_TYPE_SINGLE+EFFECT_TYPE_TRIGGER_O)
@@ -11,6 +15,7 @@ local s,id=GetID()function s.initial_effect(c)
 	e1:SetTarget(s.astg)
 	e1:SetOperation(s.asop)
 	c:RegisterEffect(e1)
+	--Special Summon
 	local e2=Effect.CreateEffect(c)
 	e2:SetCategory(CATEGORY_SPECIAL_SUMMON+CATEGORY_TOHAND)
 	e2:SetType(EFFECT_TYPE_IGNITION)
@@ -26,7 +31,7 @@ function s.ascon(e)
 	return e:GetHandler():IsSummonType(SUMMON_TYPE_LINK)
 end
 function s.filter(c)
-	return c:IsSetCard(0x369) and c:IsType(TYPE_SPELL) and c:IsType(TYPE_FIELD+TYPE_CONTINUOUS) --[[and c:GetActivateEffect():IsActivatable(tp)--]] and Duel.GetLocationCount(tp,LOCATION_SZONE)>0
+	return c:IsSetCard(0x369) and c:IsType(TYPE_SPELL) and c:IsType(TYPE_FIELD+TYPE_CONTINUOUS) and Duel.GetLocationCount(tp,LOCATION_SZONE)>0
 end
 function s.astg(e,tp,eg,ep,ev,re,r,rp,chk)
 	if chk == 0 then return Duel.IsExistingMatchingCard(s.filter,tp,LOCATION_DECK,0,1,nil) end

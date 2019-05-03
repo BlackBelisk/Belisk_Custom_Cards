@@ -1,5 +1,5 @@
 --Entity Of Greed
---Scripted by Belisk
+--Designed and Scripted by Belisk
 local s,id=GetID()
 function s.initial_effect(c)
 	aux.EnablePendulumAttribute(c)	
