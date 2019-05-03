@@ -1,0 +1,19 @@
+<Card's Name> -Code/ID: 
+-Type: 
+-Attribute: 
+-Level/Rank/Link Rating: 
+-Race: 
+-ATK: <Value> -DEF: <Value>
+-Link Arrows:
+-Pendulum Scales: <Value>/<Value>
+-Pendulum Effect:
+-Effect: 
+ 
+1) The Code/ID should to contain only up to 9 digits, if the ID already exists I will assign a new one.
+2) Type must to be specified; example: Monster/Effect/Xyz/Pendulum.
+3) Race is the type of monster: Fiend, Warrior...
+4) Be sure to specify the effect, I will make it as the text shows.
+5) You can only write up to 5 cards per request, you can only make 1 request at a time. If you don't include a card and you have an empty slot, you will have to wait.
+- You can only make a new request after I give you the cards.|
+6) Be sure to fil all the information on the Template is there, is something big missing I will skip that card(s) 
+7) I reserve my rights to reject a request if the effect is too broken.
