@@ -1,0 +1,17 @@
+Devastation, the Almighty Dragon -ID: 13297386
+-Type: Monster/Effect
+-Attribute: FIRE
+-Level: 8
+-Race: Dragon
+-ATK: 3000 -DEF: 2000
+-Link Arrows: N/A
+-Pendulum Scales: N/A
+-Pendulum Effect: N/A
+-Effect: 
+While this card is face-up on the field or in the GY it cannot be banished. While this card is face-up on the field or in GY, your opponent cannot banish cards.
+You can only use each effect of "Devastation, the Almighty Dragon" once per turn: 
+● If a Beast-Warrior or a Winged-Beast Monster is destroyed by battle or by card effect, you can add this card from your deck to your hand. 
+● You can discard this card, add 2 Level 4 or higher FIRE beast-warrior and/or winged-beast monsters from your deck to your hand, then add 1 Level 8 or higher Wyrm type monster from your deck to your hand.
+● If a FIRE monster is destroyed by a card effect while this card is in the GY, you can special summon this card from your GY, then you can destroy all monsters your opponent controls.
+● If this card is destroyed by a card effect, during the next standby phase, you can special summon this card from your GY, then you can destroy all spell/traps your opponent controls. Your opponent cannot activate cards or effects in response to this card's activation.
+● You can target 1 Level 8 or higher Wyrm Type monster in your GY, add it to your hand, then you can draw 1 card.

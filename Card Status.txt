@@ -72,6 +72,6 @@ Meanings:
 
 ---------------------------------------------Custom Singles---------------------------------------------
 
--Devastation, the Almighty Dragon -ID: 13297386-  Text: Done, Pic: Done, cdb: Done, Script: Done;
+-Devastation, the Almighty Dragon -ID: 13297386 -Status- Text: Done, Pic: Done, cdb: Done, Script: Done;
 
 ---------------------------------------------Custom Singles---------------------------------------------
