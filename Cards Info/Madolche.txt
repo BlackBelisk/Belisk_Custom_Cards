@@ -1,32 +1,46 @@
-<Card's Name> -ID: 
--Type: 
--Attribute: 
--Level/Rank/Link Rating: <Value>
--Race: 
--ATK: <Value> -DEF: <Value>
--Link Arrows:
--Pendulum Scales: <Value>/<Value>
--Pendulum Effect:
+Madolche Sweet Message -ID: 13297386 
+-Type: Spell/Quick-Play
+-Attribute:N/A 
+-Level/Rank/Link Rating: N/A
+-Race: N/A
+-ATK: N/A -DEF: N/A
+-Link Arrows:N/A
+-Pendulum Scales: N/A / N/A
+-Pendulum Effect: N/A
 -Effect: 
+During your turn you can activate this effect:
+● Shuffle 1"Madolche" card from your field into the Deck, draw 2 cards, then you can send 1 "Madolche" monster from your Deck to the GY, then banish this card instead of sending it to the GY.
+During your opponent's turn you can activate this effect:
+● When your opponent activates a Spell/Trap Card, or monster effect, while you control a face-up "Madolche" monster: Negate the activation, and if you do, destroy that card, then banish this card instead of sending it to the GY. 
+You can only activate 1 "Madolche Sweet Message" per turn.
 
-<Card's Name> -ID: 
--Type: 
--Attribute: 
--Level/Rank/Link Rating: <Value>
--Race: 
--ATK: <Value> -DEF: <Value>
--Link Arrows:
--Pendulum Scales: <Value>/<Value>
--Pendulum Effect:
+Madolche Twin Siscream -ID: 21315019
+-Type: Monster/Effect
+-Attribute: EARTH
+-Level: 4
+-Race: Fairy
+-ATK: 1800 -DEF: 1200
+-Link Arrows: N/A
+-Pendulum Scales: N/A / N/A
+-Pendulum Effect: N/A
 -Effect: 
+While this card is face-up on the field, this card is also treated as a Beast type monster. 
+During your Main Phase, you can Normal Summon 1 "Madolche" monster in addition to your Normal Summon/Set (You can only gain this effect once per turn). 
+You can only use each of these effects of Madolche Twin Siscream" once per turn:
+● If this card is Summoned, you can add 1 "Madolche" card from your Deck to your hand.
+● You can target 1 "Madolche" monster you control, increase it's level by up to 2.
+You cannot Special Summon monsters during the turn you activate any of these effects, except "Madolche" monsters.
+ If this card in your possession is destroyed by your opponent's card (by battle or card effect) and sent to your Graveyard: Shuffle this card into the Deck.
 
-<Card's Name> -ID: 
--Type: 
--Attribute: 
--Level/Rank/Link Rating: <Value>
--Race: 
--ATK: <Value> -DEF: <Value>
--Link Arrows:
--Pendulum Scales: <Value>/<Value>
--Pendulum Effect:
+Madolche Dessert Flood -ID: 21316019
+-Type: Spell/Continuous
+-Attribute: N/A
+-Level/Rank/Link Rating: N/A
+-Race: N/A
+-ATK: N/A -DEF: N/A
+-Link Arrows: N/A
+-Pendulum Scales: N/A / N/A
+-Pendulum Effect: N/A
 -Effect: 
+When this card is activated: You can add 1 "Madolche" Field Spell from your Deck or GY to your hand. All "Madolche" Xyz monsters on your side of the field gain 500 ATK and DEF. If you have a "Madolche" monster in your GY: You can target up to 3 face-up "Madolche" monsters from your GY or removed from play, shuffle them into the Deck. You can only use this effect of "Madolche Dessert Flood" once per turn.
+You can only activate 1 "Madolche Flood Dessert" per turn.

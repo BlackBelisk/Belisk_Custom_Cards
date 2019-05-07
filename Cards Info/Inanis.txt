@@ -158,6 +158,7 @@ If you control no cards (Quick Effect): You can discard this card, Special Summo
 -Link Rating: 1 
 -Race: Spellcaster
 -ATK: 1000 -DEF: N/A 
+-Link Arrows: Bottom
 -Pendulum Scale: N/A
 -Effect: 
 1 "Inanis" monster
@@ -169,6 +170,7 @@ When this card is Link Summoned: You can activate 1 "Inanis" Spell card directly
 -Link Rating: 2
 -Race: Spellcaster
 -ATK:2000 -DEF: N/A
+-Link Arrows: Bottom, Bottom Right
 -Pendulum Scale: N/A
 -Pendulum Effect: N/A
 -Effect:
@@ -181,6 +183,7 @@ If this card is Link Summoned: You can activate 1 "Inanis" Spell card directly f
 -Link Rating: 3
 -Race: Spellcaster
 -ATK: 2500 -DEF: N/A
+-Link Arrows: Right, Bottom Left, Bottom
 -Pendulum Scale: 1/1
 [ Pendulum Effect ]
 You cannot Pendulum Summon monsters, except "Inanis" monsters. This effect cannot be negated. If you have an "Inanis" card in your other Pendulum Zone: You can destroy the card in your other Pendulum Zone, and if you do, Special Summon this card.
@@ -196,6 +199,7 @@ If this card is Link Summoned, you can target up to 3 "Inanis" cards in your GY,
 -Link Rating: 4
 -Race: Spellcaster
 -ATK:3000 -DEF: N/A
+-Link Arrows: Top, Left, Right, Bottom Right
 -Pendulum Scale: 9/9
 [ Pendulum Effect ]
 You cannot Pendulum Summon monsters, except "Inanis" monsters. This effect cannot be negated. If you have an "Inanis" card in your other Pendulum Zone: You can destroy the card in your other Pendulum Zone, and if you do, Special Summon this card.
