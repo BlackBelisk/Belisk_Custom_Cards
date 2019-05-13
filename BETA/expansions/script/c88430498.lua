@@ -132,7 +132,6 @@ function s.deptg(e,tp,eg,ep,ev,re,r,rp,chk,chkc)
 	Duel.SetTargetParam(2)
 	Duel.SetOperationInfo(0,CATEGORY_DRAW,nil,0,tp,2)
 	Duel.SetOperationInfo(0,CATEGORY_DESTROY,e:GetHandler(),1,tp,0)
-	-- Duel.SetOperationInfo(int chainc, int category, Card|Group targets, int count, int target_player, int target_param)
 end
 function s.depop(e,tp,eg,ep,ev,re,r,rp)
 	local c=e:GetHandler()

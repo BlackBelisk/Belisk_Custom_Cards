@@ -51,7 +51,7 @@ end
 function s.spfilter2(c,mg)
 	local mg2=mg:Clone()
 	mg2:RemoveCard(c)
-	return c:IsSetCard(0x370)
+	return c:IsSetCard(0x370) and c:IsType(TYPE_MONSTER)
 end
 function s.spcon(e,c)
 	if c==nil then return true end

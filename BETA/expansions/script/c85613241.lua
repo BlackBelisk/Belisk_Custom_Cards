@@ -24,6 +24,7 @@ function s.initial_effect(c)
 	c:RegisterEffect(e2)
 	--Special Summon
 	local e3=Effect.CreateEffect(c)
+	e3:SetDescription(aux.Stringid(id,1))
 	e3:SetType(EFFECT_TYPE_FIELD)
 	e3:SetCode(EFFECT_SPSUMMON_PROC)
 	e3:SetProperty(EFFECT_FLAG_CANNOT_DISABLE+EFFECT_FLAG_UNCOPYABLE)
@@ -34,25 +35,39 @@ function s.initial_effect(c)
 	e3:SetCondition(s.spcon)
 	e3:SetOperation(s.spop)
 	c:RegisterEffect(e3)
+	--Special Summon Success
+	local e3=Effect.CreateEffect(c)
+	e3:SetDescription(aux.Stringid(id,2))
+	e3:SetType(EFFECT_TYPE_SINGLE+EFFECT_TYPE_TRIGGER_F)
+	e3:SetCategory(CATEGORY_DESTROY)
+	e3:SetRange(LOCATION_MZONE)
+	e3:SetCountLimit(1,id+2)
+	e3:SetCode(EVENT_SPSUMMON_SUCCESS)
+	e3:SetCondition(s.descon)
+	e3:SetCost(s.cost)
+	e3:SetTarget(s.destg)
+	e3:SetOperation(s.desop)
+	c:RegisterEffect(e3)
 	--Special Summon in SP
-	local e4=Effect.CreateEffect(c)
-	e4:SetType(EFFECT_TYPE_SINGLE+EFFECT_TYPE_CONTINUOUS)
-	e4:SetProperty(EFFECT_FLAG_CANNOT_DISABLE)
-	e4:SetCode(EVENT_TO_GRAVE)
-	e4:SetOperation(s.ssspope)
-	c:RegisterEffect(e4)
 	local e5=Effect.CreateEffect(c)
-	e5:SetCategory(CATEGORY_SPECIAL_SUMMON)
-	e5:SetType(EFFECT_TYPE_FIELD+EFFECT_TYPE_TRIGGER_O)
-	e5:SetRange(LOCATION_GRAVE)
-	e5:SetCode(EVENT_PHASE+PHASE_STANDBY)
-	e5:SetCountLimit(1,id+3)
-	e5:SetCost(s.cost)
-	e5:SetCondition(s.ssspcon)
-	e5:SetTarget(s.sssptg)
-	e5:SetOperation(s.ssspop)
-	e5:SetLabelObject(e4)
+	e5:SetType(EFFECT_TYPE_SINGLE+EFFECT_TYPE_CONTINUOUS)
+	e5:SetProperty(EFFECT_FLAG_CANNOT_DISABLE)
+	e5:SetCode(EVENT_TO_GRAVE)
+	e5:SetOperation(s.ssspope)
 	c:RegisterEffect(e5)
+	local e6=Effect.CreateEffect(c)
+	e6:SetDescription(aux.Stringid(id,1))
+	e6:SetCategory(CATEGORY_SPECIAL_SUMMON+CATEGORY_DESTROY)
+	e6:SetType(EFFECT_TYPE_FIELD+EFFECT_TYPE_TRIGGER_F)
+	e6:SetRange(LOCATION_GRAVE)
+	e6:SetCode(EVENT_PHASE+PHASE_STANDBY)
+	e6:SetCountLimit(1,id+3)
+	e6:SetCost(s.cost)
+	e6:SetCondition(s.ssspcon)
+	e6:SetTarget(s.sssptg)
+	e6:SetOperation(s.ssspop)
+	e6:SetLabelObject(e5)
+	c:RegisterEffect(e6)
 	Duel.AddCustomActivityCounter(id,ACTIVITY_SPSUMMON,s.counterfilter)
 end
 function s.counterfilter(c)
@@ -115,9 +130,23 @@ function s.spop(e,tp,eg,ep,ev,re,r,rp,c)
 	local g=mg:FilterSelect(tp,s.spfilter2,3,3,nil,mg,ft)
 	Duel.Remove(g,POS_FACEUP,REASON_COST)
 end
+function s.descon(e,tp,eg,ep,ev,re,r,rp)
+	return e:GetHandler():GetSummonType()==SUMMON_TYPE_SPECIAL+1
+end
+function s.destg(e,tp,eg,ep,ev,re,r,rp,chk)
+	if chk==0 then return true end
+	local g=Duel.GetMatchingGroup(aux.TRUE,tp,LOCATION_MZONE,LOCATION_MZONE,e:GetHandler())
+	Duel.SetOperationInfo(0,CATEGORY_DESTROY,g,#g,0,0)
+end
+function s.desop(e,tp,eg,ep,ev,re,r,rp)
+	local g=Duel.GetMatchingGroup(aux.TRUE,tp,LOCATION_MZONE,LOCATION_MZONE,e:GetHandler())
+	if #g>0 then
+		Duel.Destroy(g,REASON_EFFECT)
+	end
+end
 function s.ssspope(e,tp,eg,ep,ev,re,r,rp)
 	local c=e:GetHandler()
-	if r&REASON_DESTROY==0 or r&REASON_EFFECT==0 and not c:IsPreviousLocation(LOCATION_MZONE) then return end
+	if r&REASON_DESTROY==0 or r&REASON_BATTLE+REASON_EFFECT==0 and not c:IsPreviousLocation(LOCATION_MZONE) then return end
 	if Duel.GetCurrentPhase()==PHASE_STANDBY then
 		e:SetLabel(Duel.GetTurnCount())
 		c:RegisterFlagEffect(id,RESET_EVENT+RESETS_STANDARD+RESET_PHASE+PHASE_STANDBY,0,2)
@@ -128,19 +157,21 @@ function s.ssspope(e,tp,eg,ep,ev,re,r,rp)
 end
 function s.ssspcon(e,tp,eg,ep,ev,re,r,rp)
 	local c=e:GetHandler()
-	return c:IsCanBeSpecialSummoned(e,0,tp,true,true)
+	return c:IsCanBeSpecialSummoned(e,0,tp,true,false)
 	and e:GetLabelObject():GetLabel()~=Duel.GetTurnCount() and c:GetFlagEffect(id)>0
 end
 function s.sssptg(e,tp,eg,ep,ev,re,r,rp,chk)
 	local c=e:GetHandler()
-	if chk==0 then return c:IsCanBeSpecialSummoned(e,0,tp,true,true) end
+	if chk==0 then return c:IsCanBeSpecialSummoned(e,0,tp,true,false) end
+	local g=Duel.GetMatchingGroup(aux.TRUE,tp,LOCATION_ONFIELD,LOCATION_ONFIELD,e:GetHandler())
 	Duel.SetOperationInfo(0,CATEGORY_SPECIAL_SUMMON,c,1,0,0)
+	Duel.SetOperationInfo(0,CATEGORY_DESTROY,g,#g,0,0)
 	c:ResetFlagEffect(id)
 end
 function s.ssspop(e,tp,eg,ep,ev,re,r,rp)
 	local c=e:GetHandler()
 	local g=Duel.GetMatchingGroup(aux.TRUE,tp,LOCATION_ONFIELD,LOCATION_ONFIELD,e:GetHandler())
-	if c:IsRelateToEffect(e) and Duel.SpecialSummon(c,0,tp,tp,true,true,POS_FACEUP)>0 and #g>0 then
+	if c:IsRelateToEffect(e) and Duel.SpecialSummon(c,0,tp,tp,true,false,POS_FACEUP)>0 and #g>0 then
     	Duel.BreakEffect()
     	Duel.Destroy(g,REASON_EFFECT)
 	end
