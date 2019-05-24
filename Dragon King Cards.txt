@@ -1,0 +1,30 @@
+Dragon Servant Light
+Effect
+Light
+Lv 4
+Dragon
+500/2000
+
+You can Special Summon this card (from your hand) by banishing 1 "Dragon King" monster from your GY. If Summoned this way: you can target 1 of your banished Dragon monster, return it to the GY, and if you do, you can banish 
+1 Dragon monster with a different name from your graveyard. If this card is destroyed by a card effect, you can destroy 1 "Dragon Servant" monster from your deck. You can only use each effect of "Dragon King Light" 
+once per turn. You cannot Special Summon monsters the turn you activate either of this card's effects, except Dragon monsters.
+
+Dragon Servant Void 
+Effect
+Dark
+Lv 4
+Dragon
+1800/700
+
+You can Special Summon this card (from your hand) by banishing 1 "Dragon King" monster from your GY. If Summoned this way: you can target 1 Dragon Type monster you control, it is treated as a tuner monster for the rest of 
+this turn, and if you do, you can increase its level by up to 2. If this card is destroyed by a card effect, you can special summon this card from your graveyard, and if you do, you can send 1 link monster from your extra 
+deck to the graveyard. You can only use each effect of "Dragon Servant Void" once per turn. You cannot Special Summon monsters the turn you activate either of this card's effects, except Dragon type monsters.
+
+
+Dragon King Wish 
+Spell
+
+At the start of your Main Phase 1: Draw 2 cards, also, for the rest of this duel after you activate this card, you cannot activate Spell/Trap Cards or effects, except "Dragon King" Spell/Trap Cards or effects. 
+You can banish this card from your GY; reveal 1 "Dragon" monster in your hand, shuffle it into the Deck, then,  add 1 "Dragon King" or "Dragon Servant" Monster from your deck to your hand. 
+You can only use each effect of "Dragon King Wish" once per turn.
+
