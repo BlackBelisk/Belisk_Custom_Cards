@@ -70,8 +70,43 @@ Meanings:
 -Madolche Dessert Flood -ID: 21316019 -Status- Text: Done, Pic: Done, cdb: Done, Script: Done;
 ---------------------------------------------Archetype: Madolche Support---------------------------------------------
 
+---------------------------------------------Archetype: Dragon Kings---------------------------------------------
+-Dragon King Solar -ID: 47865839 -Status- Text: Done, Pic: Done, cdb: Done, Script: Done; 
+
+-Dragon King Absolute Zero -ID: 01572390 -Status- Text: Done, Pic: Done, cdb: Done, Script: Done;
+
+-Dragon King Naturality -ID: 99128717 -Status- Text: Done, Pic: Done, cdb: Done, Script: Done;
+
+-Dragon King Discharge -ID: 74265054 -Status- Text: Done, Pic: Done, cdb: Done, Script: Done; 
+
+-Dragon King Emptiness -ID: 54158971 -Status- Text: Done, Pic: Done, cdb: Done, Script: Done; 
+
+-Dragon King Final Holiness -ID: 88430498 -Status- Text: Done, Pic: Done, cdb: Done, Script: Done;
+
+-Dragon Servant Fire -ID: 59261417 -Status- Text: Done, Pic: Done, cdb: Done, Script: Done;
+
+-Dragon Servant Ocean -ID: 99551135 -Status- Text: Done, Pic: Done, cdb: Done, Script: Done; 
+
+-Dragon Servant Earth ID: 18467764 -Status- Text: Done, Pic: Done, cdb: Done, Script: Done;
+
+-Dragon Servant Winds ID: 61423555 -Status- Text: Done, Pic: Done, cdb: Done, Script: Done;
+
+-Dragon Servant Void ID: 69185537 -Status- Text: WFA, Pic: Done, cdb: WFA, Script: WFA;
+
+-Dragon Servant Light ID: 74235591 -Status- Text: WFA, Pic: Done, cdb: WFA, Script: WFA; 
+
+-Dragon Queen of Calamities ID: 80517420 -Status- Text: Done, Pic: Done, cdb: Done, Script: TBU;
+
+-Dragon Priestess of Gods ID: 92477991 -Status- Text: Done, Pic: Done, cdb: Done, Script: TBU;
+
+-Desolation - The Almighty Dragon God ID: 85613241 -Status- Text: Done, Pic: Done, cdb: Done, Script: TBU;
+
+-Dragon King Valley ID: 72574741 -Status- Text: Done, Pic: Done, cdb: Done, Script: Done
+
+-Dragon King Wish ID: WIP -Status- Text: WFA. Pic: WFA, cdb: WFA, Script: WFA
+---------------------------------------------Archetype: Dragon Kings---------------------------------------------
+
 ---------------------------------------------Custom Singles---------------------------------------------
 
 -Devastation, the Almighty Dragon -ID: 13297386 -Status- Text: Done, Pic: Done, cdb: Done, Script: Done;
-
 ---------------------------------------------Custom Singles---------------------------------------------
