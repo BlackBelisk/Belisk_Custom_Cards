@@ -2,7 +2,7 @@
 --Designed by Latios. Scripted by Belisk.
 local s,id=GetID()
 function s.initial_effect(c)
-	aux.AddLinkProcedure(c,aux.FilterBoolFunction(Card.IsLinkSetCard,0x371),2,2)
+	aux.AddLinkProcedure(c,s.lfilter,2,2)
 	c:EnableReviveLimit()
 	--search
 	local e1=Effect.CreateEffect(c)
@@ -38,6 +38,9 @@ function s.initial_effect(c)
 	e3:SetTarget(s.tgtg)
 	e3:SetOperation(s.tgop)
 	c:RegisterEffect(e3)
+end
+function s.lfilter(c)
+	return (c:IsSetCard(0x370) or c:IsSetCard(0x371)) and c:IsType(TYPE_MONSTER)
 end
 function s.thcon(e)
 	return e:GetHandler():IsSummonType(SUMMON_TYPE_LINK)

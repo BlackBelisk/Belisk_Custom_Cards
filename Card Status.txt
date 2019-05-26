@@ -1,10 +1,10 @@
---------------------------------------------------------------------------------
+Done--------------------------------------------------------------------------------
 Meanings:
 > II: Information Incomplete.
 > WR: Waiting for Revision.
 > TBD: To Be Discussed.
 > CID: Currently In Discussion
-> WFA: Waiting For Approval
+> Done: Waiting For Approval
 > WIP: Work In Progress.
 > TBA: To Be Assigned
 > TBU: To Be Updated.
@@ -91,19 +91,19 @@ Meanings:
 
 -Dragon Servant Winds ID: 61423555 -Status- Text: Done, Pic: Done, cdb: Done, Script: Done;
 
--Dragon Servant Void ID: 69185537 -Status- Text: WFA, Pic: Done, cdb: WFA, Script: WFA;
+-Dragon Servant Void ID: 69185537 -Status- Text: Done, Pic: Done, cdb: Done, Script: Done;
 
--Dragon Servant Light ID: 74235591 -Status- Text: WFA, Pic: Done, cdb: WFA, Script: WFA; 
+-Dragon Servant Light ID: 74235591 -Status- Text: Done, Pic: Done, cdb: Done, Script: Done; 
 
--Dragon Queen of Calamities ID: 80517420 -Status- Text: Done, Pic: Done, cdb: Done, Script: TBU;
+-Dragon Queen of Calamities ID: 80517420 -Status- Text: Done, Pic: Done, cdb: Done, Script: Done;
 
--Dragon Priestess of Gods ID: 92477991 -Status- Text: Done, Pic: Done, cdb: Done, Script: TBU;
+-Dragon Priestess of Gods ID: 92477991 -Status- Text: Done, Pic: Done, cdb: Done, Script: Done;
 
--Desolation - The Almighty Dragon God ID: 85613241 -Status- Text: Done, Pic: Done, cdb: Done, Script: TBU;
+-Desolation - The Almighty Dragon God ID: 85613241 -Status- Text: Done, Pic: Done, cdb: Done, Script: Done;
 
 -Dragon King Valley ID: 72574741 -Status- Text: Done, Pic: Done, cdb: Done, Script: Done
 
--Dragon King Wish ID: WIP -Status- Text: WFA. Pic: WFA, cdb: WFA, Script: WFA
+-Dragon King Wish ID: 46431428 -Status- Text: Done. Pic: WIP, cdb: Done, Script: Done
 ---------------------------------------------Archetype: Dragon Kings---------------------------------------------
 
 ---------------------------------------------Custom Singles---------------------------------------------

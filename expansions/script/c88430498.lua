@@ -108,17 +108,24 @@ function s.sptg(e,tp,eg,ep,ev,re,r,rp,chk)
 end
 function s.spop(e,tp,eg,ep,ev,re,r,rp)
 	local c=e:GetHandler()
-	if not c:IsRelateToEffect(e) then return end
+	if not c:IsRelateToEffect(e) or Duel.GetLocationCount(tp,LOCATION_MZONE)<=0 then return end
 	if Duel.SpecialSummon(c,0,tp,tp,false,false,POS_FACEUP)~=0 then
 		local e1=Effect.CreateEffect(c)
-		e1:SetProperty(EFFECT_FLAG_SINGLE_RANGE)
 		e1:SetType(EFFECT_TYPE_SINGLE)
 		e1:SetCode(EFFECT_INDESTRUCTABLE_EFFECT)
 		e1:SetRange(LOCATION_MZONE)
 		e1:SetValue(s.indval)
 		e1:SetCondition(s.indcon)
 		c:RegisterEffect(e1)
+		local e2=Effect.CreateEffect(c)
+		e2:SetType(EFFECT_TYPE_SINGLE)
+		e2:SetCode(EFFECT_CANNOT_BE_EFFECT_TARGET)
+		e2:SetValue(aux.tgoval)
+		c:RegisterEffect(e2)
 	end
+end
+function s.indval(e,re,tp)
+	return tp~=e:GetHandlerPlayer()
 end
 function s.indcon(e)
 	return e:GetHandler():IsDefensePos()

@@ -113,7 +113,7 @@ end
 function s.spfilter2(c,mg) 
 	local mg2=mg:Clone()
 	mg2:RemoveCard(c)
-	return (c:IsSetCard(0x370) or c:IsSetCard(0x371)) and c:IsType(TYPE_MONSTER)
+	return c:IsSetCard(0x370) and c:IsType(TYPE_MONSTER)
 end
 function s.spcon(e,c)
 	if c==nil then return true end
@@ -121,7 +121,7 @@ function s.spcon(e,c)
 	local ft=Duel.GetLocationCount(tp,LOCATION_MZONE)
 	if ft<=0 then return end
 	local mg=Duel.GetMatchingGroup(s.spfilter,tp,LOCATION_GRAVE,0,nil)
-	return mg:IsExists(s.spfilter2,1,nil,mg,ft)
+	return mg:IsExists(s.spfilter2,3,nil,mg,ft)
 end
 function s.spop(e,tp,eg,ep,ev,re,r,rp,c)
 	local mg=Duel.GetMatchingGroup(s.spfilter,tp,LOCATION_GRAVE,0,nil)
