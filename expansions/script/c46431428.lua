@@ -72,7 +72,7 @@ function s.tdop(e,tp,eg,ep,ev,re,r,rp)
 	local g=Duel.GetMatchingGroup(s.tdfilter,tp,LOCATION_HAND,0,nil)
 	if #g>0 then
 		Duel.Hint(HINT_SELECTMSG,p,HINTMSG_TODECK)
-		local sg=g:Select(p,1,1,nil)
+		local sg=g:Select(tp,1,1,nil)
 		Duel.ConfirmCards(1-tp,sg)
 		Duel.SendtoDeck(sg,nil,2,REASON_EFFECT)
 		Duel.ShuffleDeck(tp)
